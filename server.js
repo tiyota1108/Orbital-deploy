@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var path = require('path');
 import mongoose from 'mongoose';
 import routes from './routes/1564routes';//here you cannot use require
-import { mongoUri, secret } from './config/keys';
+import { mongoUri, secret } from './config';
 import jsonwebtoken from 'jsonwebtoken';
 import User from './models/userModel'; //i'm pretty sure this is wrong
 //nodemon ./server.js --exec babel-node -e js &&
